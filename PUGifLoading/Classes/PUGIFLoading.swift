@@ -269,7 +269,7 @@ extension UIImage
         }
         
         print("DURATION \(duration)")
-        let animation = UIImage.animatedImage(with: frames, duration: Double(duration / 2) / 1000.0)
+        let animation = UIImage.animatedImage(with: frames, duration: Double(3))
         
         return animation
     }
