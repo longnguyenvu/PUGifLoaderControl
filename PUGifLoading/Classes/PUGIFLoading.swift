@@ -268,7 +268,8 @@ extension UIImage
             }
         }
         
-        let animation = UIImage.animatedImage(with: frames, duration: Double(duration) / 1000.0)
+        print("DURATION \(duration)")
+        let animation = UIImage.animatedImage(with: frames, duration: Double(duration / 2) / 1000.0)
         
         return animation
     }
